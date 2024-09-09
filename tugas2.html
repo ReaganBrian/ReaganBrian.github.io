@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Tugas 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="0">
+        <fieldset>
+            <legend><b>Form Pengisian Data Mahasiswa Fasilkom TI USU</b></legend>
+        <table>
+            <tr>
+                <td><label for="uname">Nama : </label></td>
+                <td><input type="text" id="uname" name="Username"><br></td>
+                
+            </tr>
+
+            <tr>
+                <td><label for="pass">Password SATU USU :</label></td>
+                <td><input type="password" id="pass" name="Password SATU USU"><br></td>
+            </tr>
+        
+            <tr>
+                <td><label for="als">Alasan masuk prodi ini :</label></td>
+                <td>
+                    <textarea name="Alasan masuk prodi ini" id="als" rows="5" cols="20"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="jk">Jenis Kelamin : </label></td>
+                <td class="jk">
+                <input type="radio" id="jk" name="Jenis Kelamin" value="pr">
+                <label for="pr">Pria</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="jk">
+                <input type="radio" id="jk" name="Wanita" value="wn">
+                <label for="wn">Wanita</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="mnt">Minat Karir : </label></td>
+                <td class="mnt">
+                <input type="checkbox" id="ai" name="ai" value="ai">
+                <label for="ai">Artificial intelligence (AI)</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="ds">
+                <input type="checkbox" id="ds" name="ds" value="ds">
+                <label for="ds">Data Science</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="gd">
+                <input type="checkbox" id="gd" name="Game Development" value="gd">
+                <label for="gd">Game Development</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="sft">
+                <input type="checkbox" id="sf" name="Software Engineering" value="sf">
+                <label for="sft">Software Engineering</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="ui">
+                <input type="checkbox" id="ui" name="UI/UX" value="ui">
+                <label for="ui">UI/UX</label>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="prodi">Program Studi :</label></td>
+                <td><select name="Program Studi">
+                    <option value="ilkom">Ilmu Komputer</option>
+                    <option value="ti">Teknologi Informasi</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit"></td>
+
+            </tr>
+    
+        </table>
+        </fieldset>
+    </form>
+
+</body>
